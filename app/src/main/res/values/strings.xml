@@ -3,7 +3,6 @@
     <string name="home_fragment">Home fragment</string>
     <string name="category_fragment">Category fragment</string>
     <string name="button_list_text">List &amp; Fragment</string>
-    <string name="camera_menu_text">camera</string>
     <string name="ui_ux_text"><![CDATA[UI & UX]]></string>
     <string name="background_process_amp_networking_text"><![CDATA[Background Process & Networking]]></string>
     <string name="linear_layout_text">Linear Layout</string>
@@ -51,4 +50,16 @@
         <item>@drawable/supomo</item>
         <item>@drawable/tan_malaka</item>
     </array>
+    <!-- menu text -->
+    <string name="gallery_text">Gallery</string>
+    <string name="slideshow_text">Slideshow</string>
+    <string name="tools_text">Tools</string>
+    <string name="communicate_text">Communicate</string>
+    <string name="share">Share</string>
+    <string name="send_text">Send</string>
+    <string name="camera_menu_text">camera</string>
+    <string name="mail_text">davinreinaldogozali@gmail.com</string>
+    <string name="user_name_text">Davin Reinaldo Gozali</string>
+    <string name="nav_drawer_header_bg_content_desc">nav drawer header background</string>
+    <string name="user_avatar_icon_content_desc">user avatar icon</string>
 </resources>

@@ -27,6 +27,7 @@
         android:layout_marginEnd="16dp"
         android:layout_gravity="center"
         android:layout_weight="0.25"
+        android:enabled="false"
         android:text="@string/button_list_text"/>
 
     <Button
@@ -37,7 +38,7 @@
         android:layout_marginEnd="16dp"
         android:layout_gravity="center"
         android:layout_weight="0.25"
-        android:enabled="false"
+        android:enabled="true"
         android:text="@string/ui_ux_text"/>
 
     <Button
