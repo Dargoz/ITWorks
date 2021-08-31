@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1"
+    tools:context=".home.HomeFragment">
+
+    <Button
+        android:id="@+id/button_activity_intent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_gravity="center"
+        android:layout_weight="0.25"
+        android:enabled="false"
+        android:text="@string/activity_amp_intent_text"/>
+
+
+    <Button
+        android:id="@+id/button_list_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_gravity="center"
+        android:layout_weight="0.25"
+        android:text="@string/button_list_text"/>
+
+    <Button
+        android:id="@+id/button_ui_ux"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_gravity="center"
+        android:layout_weight="0.25"
+        android:enabled="false"
+        android:text="@string/ui_ux_text"/>
+
+    <Button
+        android:id="@+id/button_bg_process"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_gravity="center"
+        android:layout_weight="0.25"
+        android:enabled="false"
+        android:text="@string/background_process_amp_networking_text"/>
+
+</LinearLayout>
