@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ui_ux_nav_graph"
+    app:startDestination="@id/home_menu">
+
+    <fragment
+        android:id="@+id/home_menu"
+        android:name="com.dargoz.itworks.uiux.UserInterfaceFragment"
+        android:label="fragment_user_interface"
+        tools:layout="@layout/fragment_user_interface" />
+    <fragment
+        android:id="@+id/camera_menu"
+        android:name="com.dargoz.itworks.uiux.CameraFragment"
+        android:label="fragment_camera"
+        tools:layout="@layout/fragment_camera" />
+    <fragment
+        android:id="@+id/gallery_menu"
+        android:name="com.dargoz.itworks.uiux.GalleryFragment"
+        android:label="fragment_gallery"
+        tools:layout="@layout/fragment_gallery" />
+</navigation>

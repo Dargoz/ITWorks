@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
-
+    <item
+        android:id="@+id/home_menu"
+        android:icon="@drawable/ic_baseline_home"
+        android:title="@string/home_menu_text"
+        />
     <item
         android:id="@+id/camera_menu"
         android:icon="@drawable/ic_baseline_camera"

@@ -1,5 +1,6 @@
 package com.dargoz.itworks.home;
 
+import android.content.Intent;
 import android.os.Bundle;
 
 import androidx.annotation.NonNull;
@@ -13,6 +14,7 @@ import android.view.ViewGroup;
 
 import com.dargoz.itworks.R;
 import com.dargoz.itworks.databinding.FragmentHomeBinding;
+import com.dargoz.itworks.uiux.UserInterfaceActivity;
 
 
 public class HomeFragment extends Fragment {
@@ -41,7 +43,10 @@ public class HomeFragment extends Fragment {
                 Navigation.findNavController(view).navigate(R.id.action_home_to_list_fragment)
         );
 
-
+        binding.buttonUiUx.setOnClickListener(v -> {
+            Intent intent = new Intent(getContext(), UserInterfaceActivity.class);
+            startActivity(intent);
+        });
 
 
         /*Snackbar.make(view, "Replace", Snackbar.LENGTH_LONG
