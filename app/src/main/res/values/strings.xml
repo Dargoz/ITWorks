@@ -70,5 +70,6 @@
     <string name="gallery_fragment">Gallery fragment</string>
     <string name="floating_button_content_desc">floating button</string>
     <string name="responses_text">responses :</string>
+    <string name="start_text">Start</string>
 
 </resources>
