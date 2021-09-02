@@ -14,14 +14,5 @@
             android:id="@+id/action_home_to_list_fragment"
             app:destination="@id/listFragment"/>
     </fragment>
-    <fragment
-        android:id="@+id/listFragment"
-        android:name="com.dargoz.itworks.list.ListFragment"
-        android:label="fragment_category"
-        tools:layout="@layout/fragment_list" >
-        <argument
-            android:name="name"
-            app:argType="string"
-            android:defaultValue="" />
-    </fragment>
+
 </navigation>

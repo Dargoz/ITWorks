@@ -48,12 +48,11 @@ public class HomeFragment extends Fragment {
             startActivity(intent);
         });
 
+    }
 
-        /*Snackbar.make(view, "Replace", Snackbar.LENGTH_LONG
-                ).setAction("Action", view1 -> {
-
-                }).show()*/
-
-
+    @Override
+    public void onDestroyView() {
+        super.onDestroyView();
+        binding = null;
     }
 }
