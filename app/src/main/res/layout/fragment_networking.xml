@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".networking.NetworkingFragment">
+
+    <TextView
+        android:id="@+id/response_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="@string/responses_text"/>
+
+    <TextView
+        android:id="@+id/response_data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/response_title"
+        android:maxLines="6"
+        android:ellipsize="end"
+        tools:text="lorem ipsum"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

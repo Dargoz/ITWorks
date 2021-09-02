@@ -11,8 +11,13 @@
         android:label="fragment_home"
         tools:layout="@layout/fragment_home" >
         <action
-            android:id="@+id/action_home_to_list_fragment"
-            app:destination="@id/listFragment"/>
+            android:id="@+id/action_homeFragment_to_networkingFragment"
+            app:destination="@id/networkingFragment" />
     </fragment>
+    <fragment
+        android:id="@+id/networkingFragment"
+        android:name="com.dargoz.itworks.networking.NetworkingFragment"
+        android:label="fragment_networking"
+        tools:layout="@layout/fragment_networking" />
 
 </navigation>
