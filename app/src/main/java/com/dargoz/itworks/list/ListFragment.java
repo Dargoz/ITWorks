@@ -73,4 +73,10 @@ public class ListFragment extends Fragment {
         dataPhoto.recycle();
         return heroes;
     }
+
+    @Override
+    public void onDestroyView() {
+        super.onDestroyView();
+        binding = null;
+    }
 }
