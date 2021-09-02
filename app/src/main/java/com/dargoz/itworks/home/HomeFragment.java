@@ -41,14 +41,11 @@ public class HomeFragment extends Fragment {
                 Navigation.findNavController(view).navigate(R.id.action_home_to_list_fragment)
         );
 
+    }
 
-
-
-        /*Snackbar.make(view, "Replace", Snackbar.LENGTH_LONG
-                ).setAction("Action", view1 -> {
-
-                }).show()*/
-
-
+    @Override
+    public void onDestroyView() {
+        super.onDestroyView();
+        binding = null;
     }
 }
